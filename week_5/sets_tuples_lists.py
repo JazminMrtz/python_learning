@@ -71,5 +71,7 @@ print(friends)
 # loop through the list and print the friends name
 print(friends)
 # if the list is greater than 10 break the loop
-if len(friends) > 10:
-    break
+for friend in friends:
+    print(friends)
+    if len(friends) > 10:
+     break
