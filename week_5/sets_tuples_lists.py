@@ -1,9 +1,9 @@
-# collection = single "variable" used to store multiple values
+#    collection = single "variable" used to store multiple values
 #    List = [] ordered and changeable. Duplicates OK
 #    Set = {} unordered and immutable, but Add/Remove OK. NO duplicates
 #    Table = () ordered and unchangeable. Duplicates OK. FASTER
 
-fruits = ["apple", "orange", "banana", "coconut", "strawberry", "grape"]
+# fruits = ["apple", "orange", "banana", "coconut", "strawberry", "grape"]
 # print(dir(fruits)) #attributes for the lists
 
 # print(help(fruits))
@@ -24,3 +24,32 @@ fruits = ["apple", "orange", "banana", "coconut", "strawberry", "grape"]
 
 # for fruit in fruits:
 #     print(fruit)
+cars = ["bmw", "maserati", "audi","mercedes", "ferrari"]
+# print(f"these are lists of {cars}")
+# print(f"the first car is {cars[0]}")
+
+# # changing the value of the list
+# cars[0] = "toyota"
+# print(f"the first car is {cars[0]}")
+
+# print(f"the last car is {cars[-1]}")
+# cars[-1] = "lamborghini"
+# print(f"the last car is {cars[-1]}")
+
+# # adding a new value to the lists
+# cars.append("bugatti")
+# print(cars)
+# cars.remove("maserati")
+# print(cars)
+
+# looping through the list
+# otherwise called iterating through the list
+for car in cars:
+#   print(len(car))
+#   print(car)
+#   carRequest = input("add a new car please: ")
+#   cars.append(carRequest)
+#   print(cars)
+    print(len(cars))
+    print(cars.upper())
+    print(cars)
