@@ -53,3 +53,23 @@ for car in cars:
     print(len(cars))
     print(cars.upper())
     print(cars)
+    if len(cars) > 10:
+        break
+
+# challenge
+# create a list of friends
+friends = []
+# make sure the initial list is none
+# add a new friend to the list, add at least 5 friends
+friends = ["Zayla", "Leo", "Jacky", "Cristal", "Lesly"]
+# remove a friend
+friends.remove("Jacky")
+# insert a friend at a specific index maybe 2
+friends.apprend("Lucy", [2])
+# print the list of friends
+print(friends)
+# loop through the list and print the friends name
+print(friends)
+# if the list is greater than 10 break the loop
+if len(friends) > 10:
+    break
