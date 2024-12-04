@@ -2,8 +2,8 @@ students = [
     {
         'CPSID': 10000011,
         'Combo,Name': 'Anderson, Karen',
-        'LName': 'UpdatedMartinez',
-        'FName': 'UpdatedJazmin',
+        'LName': 'Anderson',
+        'FName': 'Karen',
         'Email': ['karenanderson@example.com', 'karen.a@example.net']
     },
     {
